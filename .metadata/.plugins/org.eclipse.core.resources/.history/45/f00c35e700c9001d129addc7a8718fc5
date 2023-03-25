@@ -1,0 +1,37 @@
+package Day7;
+
+public class staticExample {
+	
+	static int a=10;
+	 int b = 20; 
+	static void m1() {
+		System.out.println("static method");
+	}
+	  void m2() {
+		System.out.println("non static method");
+	}
+	 void m3() {
+			System.out.println(a);
+			m1();
+
+			System.out.println(b);
+			m2();
+	 }
+	public static void main(String[] args) {
+		
+
+		System.out.println(a);
+		m1();
+
+		//System.out.println(b);
+		//m2();
+		
+		staticExample se = new staticExample();
+		System.out.println(se.b);
+		se.m2();
+		se.m3();
+		
+		
+	}
+
+}

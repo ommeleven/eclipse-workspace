@@ -1,0 +1,10 @@
+18:39:41 **** Incremental Build of configuration Release for project Practices ****
+Info: Internal Builder is used for build
+g++ -O3 -Wall -c -fmessage-length=0 -o "src\\Practices.o" "..\\src\\Practices.cpp" 
+..\src\Practices.cpp: In function 'int main()':
+..\src\Practices.cpp:28:3: error: conversion from 'int' to non-scalar type 'std::__cxx11::string {aka std::__cxx11::basic_string<char>}' requested
+   };
+   ^
+
+18:39:42 Build Failed. 1 errors, 0 warnings. (took 520ms)
+

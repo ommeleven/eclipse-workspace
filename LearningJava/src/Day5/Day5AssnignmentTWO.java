@@ -1,0 +1,14 @@
+package Day5;
+
+public class Day5AssnignmentTWO {
+
+	public static void main(String[] args) {
+		
+		String s1 ="Om"; 
+		String s2 = " Dange";
+		
+		String s3 = s1.concat(s2);
+		System.out.println(s3);
+	}
+
+}

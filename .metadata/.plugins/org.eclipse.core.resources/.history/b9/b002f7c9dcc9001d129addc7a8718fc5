@@ -1,0 +1,15 @@
+package Day10;
+
+public class checkedExceptions {
+
+	public static void main(String[] args) {
+		System.out.println("Program is started");
+		System.out.println("Program is running");
+		
+		Thread.sleep(500);
+		System.out.println("Program finished");
+			
+
+	}
+
+}

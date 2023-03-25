@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Returning Values from Functions/src/Returning Values from Functions.cpp&apos;" deleteContents="false" description="Delete resource &apos;Returning Values from Functions/src/Returning Values from Functions.cpp&apos;" element1="/Returning Values from Functions/src/Returning Values from Functions.cpp" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1629257125851"/>
+</session>

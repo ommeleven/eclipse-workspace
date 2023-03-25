@@ -1,0 +1,14 @@
+package Day3;
+
+public class whileLoop {
+
+	public static void main(String[] args) {
+		
+		
+		while(int i;, i<101) {
+			System.out.println(i);
+			i++;
+		}
+	}
+
+}

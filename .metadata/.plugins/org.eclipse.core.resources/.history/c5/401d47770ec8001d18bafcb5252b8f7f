@@ -1,0 +1,16 @@
+package Day6;
+
+public class Calculation {
+	
+	int x=100,y=120;
+	void sum() {
+		System.out.println(x+y);
+	}
+	public static void main(String[] args) {
+		
+		Calculation calc = new Calculation();
+		calc.sum();
+		
+	}
+
+}

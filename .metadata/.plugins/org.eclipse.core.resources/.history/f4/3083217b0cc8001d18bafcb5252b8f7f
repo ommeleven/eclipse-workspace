@@ -1,0 +1,17 @@
+package Day6;
+
+public class Student {
+
+	int sID;
+	String sName;
+	char grade;
+	
+	void Display() {
+		System.out.println(sID);
+		System.out.println(sName);
+		System.out.println(grade);
+		
+	}
+	
+	
+}

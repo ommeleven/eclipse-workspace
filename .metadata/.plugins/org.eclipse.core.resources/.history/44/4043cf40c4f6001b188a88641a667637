@@ -1,0 +1,34 @@
+//============================================================================
+// Name        : Do-While.cpp
+// Author      : omdange
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	const string password = "Hello";
+
+	cout << "Enter your Password > " ;
+
+	string input;
+	cin >> input;
+
+	if(input == password) {
+		cout << "Password accepted !!" << endl;
+
+	}
+	else {
+			cout << "Password Declined !!" << endl;
+
+		}
+
+
+
+
+	return 0;
+}

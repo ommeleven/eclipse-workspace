@@ -1,0 +1,19 @@
+package Day6;
+
+public class Employee {
+	
+	
+	int eID;
+	
+	String eName;
+	String Job;
+	int deptNo;
+	
+	void display() {
+		
+		System.out.println(eID);
+		System.out.println(eName);
+		System.out.println(deptNo);
+		System.out.println(Job);
+	}
+}

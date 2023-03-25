@@ -1,0 +1,18 @@
+package Day7;
+
+public class callByValue {
+	int x;
+	
+	public void addition(int a) {
+		x=a+5;
+		System.out.println(x);
+	}
+
+	public static void main(String[] args) {
+		callByValue c= new callByValue();
+		c.addition(12);
+		System.out.println(c.x);
+
+	}
+
+}

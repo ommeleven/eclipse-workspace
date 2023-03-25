@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;IF&apos; to &apos;IF&apos;" description="Move &apos;IF&apos; to &apos;IF&apos;" destination="/IF" element1="/Basic Syntax;If/IF" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1627961201781" updateReferences="true"/>
+</session>

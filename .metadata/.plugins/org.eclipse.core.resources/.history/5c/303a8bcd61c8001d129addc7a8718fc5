@@ -1,0 +1,43 @@
+package Day6;
+
+public class methodOverloading {
+
+	int x,y;
+	double z;
+	
+	int addition() {
+		x=10;
+		y=20;
+		return(x+y);
+		
+	}
+	int addition(int a, int b) {
+		x=a;
+		y=b;
+		return(x+y);
+		
+	}
+
+	double addition(int a, double b) {
+		x=a;
+		z=b;
+		return(x+z);
+		
+	}
+	double addition(int a, int b, double c) {
+		x=a;
+		y=b;
+		z=c;
+		return(x+y+z);
+	}
+	public static void main(String[] args) {
+		
+		methodOverloading mo= new methodOverloading();
+		System.out.print(mo.addition());
+		System.out.print(mo.addition(1,4));
+		System.out.print(mo.addition(33,4567.2345));
+		System.out.print(mo.addition(12,234,12.34));
+
+	}
+
+}

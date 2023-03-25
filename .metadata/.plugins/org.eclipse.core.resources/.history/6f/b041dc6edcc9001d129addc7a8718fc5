@@ -1,0 +1,27 @@
+package Day10;
+
+import java.util.Scanner;
+
+public class finallyBlock {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Program is started");
+		System.out.println("Program is running");
+		
+		int a = 100;
+		
+		try {
+			System.out.print(a/0);
+
+		}
+		catch(NullPointerException e){
+			System.out.println("exception occured");
+		}
+		finally {
+			System.out.println("program finished");
+
+		}
+	}
+
+}

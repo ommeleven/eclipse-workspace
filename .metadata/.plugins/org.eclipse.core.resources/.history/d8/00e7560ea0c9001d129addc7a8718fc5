@@ -1,0 +1,30 @@
+package Day8;
+
+
+class Bank {
+	double rateOfInterest() {
+		return 0;
+	}
+}
+class AXIS extends Bank {
+	double rateOfInterest() {
+		return 10.25;
+	}
+}
+class ICICI extends Bank{
+	double rateOfInterest() {
+		return 7.25;
+	}
+}
+public class methodoverridding {
+
+	public static void main(String[] args) {
+		AXIS axisobj = new AXIS();
+		ICICI iciciobj = new ICICI();
+		axisobj.rateOfInterest();
+		iciciobj.rateOfInterest();
+		
+
+	}
+
+}

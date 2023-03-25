@@ -1,0 +1,16 @@
+package Day8;
+
+public class finalKeyword {
+
+	
+	final int c = 11;
+	public static void main(String[] args) {
+		
+		finalKeyword fk = new finalKeyword();
+		//fk.c=101;
+		System.out.println(fk.c);
+	
+
+	}
+
+}

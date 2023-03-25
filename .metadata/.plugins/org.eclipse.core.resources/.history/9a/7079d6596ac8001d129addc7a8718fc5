@@ -1,0 +1,35 @@
+package Day6;
+
+public class Day6Assignments {
+	
+	public class Student {
+		
+		int SID;
+		String Sname;
+		int Sub1;
+		int Sub2;
+		int Sub3;
+		int totalMark = Sub1+Sub2+Sub3;
+		
+	 
+	void getStuData(int sID, String Sname) {
+		sID = sID;
+		Sname = Sname;
+	}
+	void getStuMarks(int Sub1,int Sub2,int Sub3) {
+		Sub1 =  Sub1;
+		Sub2 =  Sub2;
+		Sub3 = Sub3;
+	}
+	void totalMarks() {
+		
+		System.out.println(totalMark);
+	}
+	}
+	public static void main(String[] args) {
+		
+		
+		
+			}
+
+}

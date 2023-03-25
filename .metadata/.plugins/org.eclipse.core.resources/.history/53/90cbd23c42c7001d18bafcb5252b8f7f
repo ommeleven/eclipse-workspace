@@ -1,0 +1,23 @@
+package Day4;
+
+public class SearchElementinArray {
+
+	public static void main(String[] args) {
+		int a[] = {100,200,300,400,500};
+		
+		int num=100;
+		for(int i:a) {
+			if(i==num) {
+
+				System.out.println(i);
+				System.out.println("element found");
+				break;
+			}else {
+
+				System.out.println("element not found");
+				
+			}
+		}
+	}
+
+}

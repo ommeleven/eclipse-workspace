@@ -1,0 +1,35 @@
+//============================================================================
+// Name        : Arrays-Lists.cpp
+// Author      : omdange
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+
+	int values[3];
+
+	values[0] = 10;
+	values[1] = 11;
+	values[2] = 6;
+
+	cout << values[0] << endl;
+	cout << values[1] << endl;
+	cout << values[2] << endl;
+
+
+	double numbers[4] = {4.5, 5, 23, 12};
+
+	cout << numbers[2] << endl;
+
+
+
+
+
+	return 0;
+}

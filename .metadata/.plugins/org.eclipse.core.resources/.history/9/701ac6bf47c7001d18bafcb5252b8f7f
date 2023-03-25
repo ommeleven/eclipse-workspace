@@ -1,0 +1,15 @@
+package Day4;
+
+public class AssignmentsDay4two {
+
+	public static void main(String[] args) {
+		String s[] =  {"om","dange","asmi","dev","jyoti"};
+
+		System.out.println(s.length);
+		/*for(int i:s.length) {
+
+			System.out.println(s[1]);
+		}*/
+			}
+
+}

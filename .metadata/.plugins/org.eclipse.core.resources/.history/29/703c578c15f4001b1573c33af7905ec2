@@ -1,0 +1,89 @@
+//============================================================================
+// Name        : scribbleCode1.cpp
+// Author      : omdange
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#define _GLIBCXX_USE_CXX11_ABI 0;
+using namespace std;
+
+int main() {
+
+	// Basic Synatax: Strings
+
+	string sValue1 = " This is string text. ";
+
+	string sValue2 = " Thank you ";
+
+	cout << sValue1 << endl;
+	cout << sValue2 << endl;
+
+
+	string  sValue3 = sValue1 + sValue2;
+	cout << sValue1 << sValue2 << endl;
+
+
+	cout << sValue3 << endl;
+
+
+	// Basic Syntax: User Input (not UI)
+
+	cout << " Enter User Input:  " << flush;
+
+	string input;
+	cin >> input;
+
+	cout <<  " You Entered: " << input <<  endl;
+
+
+	cout << " Enter A Number: " << endl;
+    int value;
+    cin >> value;
+    cout << " You Entered :"<< value << endl;
+
+//    Basic Syntax :boolean
+
+    bool bValue = true;
+
+    cout << bValue << endl;
+
+
+    // check in ASCII
+    char cValue = 44;
+    cout << cValue << endl;
+
+    char cValue1 = '7'; // Here 7 is represented as a symbol !!
+    cout << cValue1 << endl;
+
+    cout <<  " Size od char: " << sizeof(char) << endl;
+
+
+    wchar_t wValue = 'i';
+    cout << char(wValue) << endl;
+    cout << "Size of wChar:" << sizeof(wchar_t) << endl;
+
+
+    cout <<  " Today's date is 3/08/2021 " ;
+
+    string password = " hello ";
+    cout <<" Enter your Password > "  << endl;
+
+
+
+    cin >> input;
+
+    cout << "  " << input << "  " << endl;
+
+
+
+
+
+
+
+
+
+	return 0;
+ }

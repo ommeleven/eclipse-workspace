@@ -1,0 +1,31 @@
+package Day6;
+
+public class Employee {
+	
+	
+	int eID;
+	
+	String eName;
+	String Job;
+	int deptNo;
+	
+	void display() {
+		
+		System.out.println(eID);
+		System.out.println(eName);
+		System.out.println(deptNo);
+		System.out.println(Job);
+	}
+
+	public static void main(String[] args) {
+		
+		Employee emp1 = new Employee();
+		emp1.eID = 100;
+		emp1.eName = "David";
+		emp1.deptNo = 1;
+		emp1.Job = "Executive";
+		
+		emp1.display();
+	}
+
+}

@@ -1,0 +1,2 @@
+18:42:15 **** Clean-only build of configuration Debug for project 12 CS Programs ****
+rm -rf "src/Fibonacci Series.o" src/Factorial.o "src/Fibonacci Series.d" src/Factorial.d "12 CS Programs.exe" 

@@ -1,0 +1,25 @@
+package Day6;
+
+public class Calculation {
+	
+	int x=100,y=120;
+	void sum() {
+		System.out.println(x+y);
+	}
+	int sum1() {
+		return(x+y);
+	}
+	
+	public static void main(String[] args) {
+		
+		Calculation calc = new Calculation();
+		calc.sum();
+		
+		int res = calc.sum1();
+		System.out.println(res);
+		
+		
+		
+	}
+
+}

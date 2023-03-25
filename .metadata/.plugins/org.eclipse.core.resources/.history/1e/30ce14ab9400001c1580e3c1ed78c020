@@ -1,0 +1,21 @@
+//============================================================================
+// Name        : Prototypes.cpp
+// Author      : omdange
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+void doSomething() {
+	cout << "hello" << endl;
+}
+int main() {
+
+	doSomething();
+
+
+	return 0;
+}
